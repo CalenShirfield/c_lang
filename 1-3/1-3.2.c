@@ -8,7 +8,7 @@ int main()
     int fahr, celcius;
     int lower, upper, step;
 
-    lower = 0; /* lower limi of temp scale*/
+    lower = 0; /* lower limit of temp scale*/
     upper = 300; /* upper limit*/
     step = 20; /* step size */
 
