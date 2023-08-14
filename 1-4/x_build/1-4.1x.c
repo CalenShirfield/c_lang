@@ -46,6 +46,21 @@ int temp_all(char args1)
      case args1 == b:
         temp_d()
         break;
+
+
+    // char operation;
+    // double n1, n2;
+
+    // printf("Enter an operator (+, -, *, /): ");
+    // scanf("%c", &operation);
+    // printf("Enter two operands: ");
+    // scanf("%lf %lf",&n1, &n2);
+
+    //    case '+':
+    //     printf("%.1lf + %.1lf = %.1lf",n1, n2, n1+n2);
+    //     break;
+
+
     }
 
 
