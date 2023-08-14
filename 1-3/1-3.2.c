@@ -17,7 +17,7 @@ int main()
     while(fahr <= upper)
     {
         /* Truncation is avoided due to coersion*/
-        celcius = 5.0 / 9 * (fahr-32);
+        celcius = 5.0 / 9 * (fahr - 32);
         printf("%d\t\t%d\n", fahr, celcius);
         fahr = fahr + step;
     }
