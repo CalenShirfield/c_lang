@@ -19,6 +19,8 @@ int main()
     {
         /* the formula now shows explicit calculation*/
         celcius = 5.0 / 9.0 * (fahr-32.0);
+        /* string format specifier declares 3 chars width
+        zero decimal place and 6 chars width with one decimal place*/
         printf("%3.0f\t\t%6.1f\n", fahr, celcius);
         fahr = fahr + step;
     }
