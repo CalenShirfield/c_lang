@@ -32,13 +32,12 @@ int fahrtocel()
     float step = 20; /* step size */
 
     float fahr, celcius;
-    fahr = 0;
     celcius = lower;
 
      while(celcius <= upper)
     {
         /* the formula now shows explicit calculation*/
-        celcius = 5.0 / 9.0 * (fahr - 32.0);
+        fahr = celcius * 5.0 / 9.0  +  32.0;
         // fahr = (celcius * 5.0 / 9.0) + 32;
         /* string format specifier declares 3 chars width
         zero decimal place and 6 chars width with one decimal place*/
@@ -55,6 +54,7 @@ int main()
     celtofahr();
     printf("\n");
     printf("Fahrenheit\t Celcius\t");
+    printf("\n");
     fahrtocel();
 
     return 0;
