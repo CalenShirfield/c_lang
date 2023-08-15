@@ -35,7 +35,6 @@ char inchar;
 // inchar = *args;
 int temp_all(char args)
 {   
-
     switch (args)
     {
     case 'a':
